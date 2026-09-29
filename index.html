@@ -1,0 +1,178 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:#FBF7F1;
+    color:#3A342E;
+    font-family:'Work Sans','Helvetica Neue',Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:0 22px;}
+
+  header.hero{padding:44px 0 24px;}
+  .eyebrow{
+    font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;
+    color:#8C8378;margin:0 0 12px;
+  }
+  h1{
+    font-family:'Quicksand',sans-serif;font-weight:700;
+    font-size:clamp(1.7rem,6vw,2.2rem);line-height:1.1;margin:0 0 14px;color:#3A342E;
+  }
+  .lede{font-size:1rem;line-height:1.6;margin:0;color:#3A342E;}
+
+  main{padding-bottom:70px;}
+  section{padding:32px 0 6px;}
+  section + section{border-top:1px solid #E7DFD3;}
+
+  .section-kicker{
+    font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;
+    color:#8C8378;margin:0 0 8px;
+  }
+  h2{
+    font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.35rem;
+    margin:0 0 10px;color:#3A342E;
+  }
+  .section-note{font-size:0.92rem;line-height:1.6;color:#5B5347;margin:0 0 22px;}
+
+  .tag{
+    display:inline-flex;align-items:center;font-family:'Work Sans',sans-serif;
+    font-size:0.72rem;font-weight:600;padding:4px 11px;border-radius:12px;
+    background:#E0B23E;color:#4A3A0C;white-space:nowrap;
+  }
+  .tag.auggie{background:#FF6B5B;color:#FFFFFF;}
+  .tag.zachary{background:#4FB6E8;color:#0B3348;}
+
+  .standing-note{
+    background:#FFFFFF;border:1px solid #E7DFD3;border-radius:16px;
+    padding:14px 18px;margin:0 0 22px;font-size:0.85rem;color:#5B5347;line-height:1.6;
+  }
+  .standing-note b{color:#3A342E;}
+
+  .callout{
+    background:#F6E4DC;border-radius:16px;padding:18px 20px;margin:0 0 22px;
+    font-size:0.9rem;line-height:1.55;color:#5C2E22;
+  }
+  .callout strong{display:block;font-family:'Quicksand',sans-serif;font-weight:700;font-size:0.95rem;margin-bottom:8px;color:#5C2E22;}
+  .callout b{color:#3A342E;}
+
+  .lunch-grid{width:100%;border-collapse:collapse;background:#FFFFFF;border-radius:18px;overflow:hidden;
+    border:1px solid #E7DFD3;font-size:0.85rem;}
+  .lunch-grid th,.lunch-grid td{padding:10px 12px;border-bottom:1px solid #E7DFD3;text-align:left;}
+  .lunch-grid th{background:#F3EEE6;font-size:0.68rem;text-transform:uppercase;letter-spacing:0.06em;color:#8C8378;}
+  .lunch-grid tr:last-child td{border-bottom:none;}
+  .lunch-badge{display:inline-block;font-weight:700;font-size:0.76rem;padding:4px 11px;border-radius:10px;}
+  .lunch-badge.pack{background:#D9E4D6;color:#33452F;}
+  .lunch-badge.order{background:#F6E4DC;color:#7A3C29;}
+  .lunch-badge.none{background:#E7DFD3;color:#5B5347;}
+
+  .datelist{list-style:none;margin:0;padding:0;background:#FFFFFF;border:1px solid #E7DFD3;border-radius:18px;overflow:hidden;}
+  .datelist li{display:flex;align-items:center;gap:12px;padding:11px 16px;border-bottom:1px solid #E7DFD3;font-size:0.86rem;flex-wrap:wrap;}
+  .datelist li:last-child{border-bottom:none;}
+  .datelist .dl-date{flex:none;width:95px;font-weight:700;color:#3A342E;}
+  .datelist .dl-who{flex:none;width:130px;display:flex;gap:4px;flex-wrap:wrap;}
+  .datelist .dl-what{color:#5B5347;}
+  .hedge{font-size:0.82rem;color:#8C8378;font-style:italic;margin:12px 0 0;}
+
+  footer.end{padding:44px 0 10px;text-align:center;font-size:0.8rem;color:#8C8378;}
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Fall Term 2026</p>
+    <h1>Reca's Week</h1>
+    <p class="lede">Just your part — the lunch plan, Auggie's swimming kit, and which days are no-school. Charming keeps this updated.</p>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <div class="wrap">
+      <p class="section-kicker">The tricky part</p>
+      <h2>Lunch Plan — October 2026</h2>
+      <div class="standing-note">
+        <b>Pack</b> = lunch box ready before the morning bus at 6:30am.<br>
+        <b>Order</b> = lunch is ordered — nothing to pack.
+      </div>
+
+      <table class="lunch-grid">
+        <thead><tr><th>Date</th><th>Day</th><th>Auggie</th><th>Zachary</th></tr></thead>
+        <tbody>
+          <tr><td>Oct 2</td><td>Fri</td><td><span class="lunch-badge none">No school</span></td><td><span class="lunch-badge none">Holiday</span></td></tr>
+          <tr><td>Oct 5</td><td>Mon</td><td><span class="lunch-badge order">Order</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 6</td><td>Tue</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 7</td><td>Wed</td><td><span class="lunch-badge order">Order</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 8</td><td>Thu</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 9</td><td>Fri</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 12</td><td>Mon</td><td><span class="lunch-badge order">Order</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 13</td><td>Tue</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 14</td><td>Wed</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 15</td><td>Thu</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 16</td><td>Fri</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 26</td><td>Mon</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 27</td><td>Tue</td><td><span class="lunch-badge order">Order</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 28</td><td>Wed</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 29</td><td>Thu</td><td><span class="lunch-badge pack">Pack</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+          <tr><td>Oct 30</td><td>Fri</td><td><span class="lunch-badge order">Order</span></td><td><span class="lunch-badge pack">Pack</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="section-kicker">Auggie's swimming</p>
+      <h2>Swim Kit Days</h2>
+      <div class="callout">
+        <strong>🏊 Happens during school hours — no pickup change</strong>
+        On his swim days below, just send him to school that morning with a wet bag packed with his <b>swimming cap, 2 towels, goggles, and swimsuit</b>, plus an <b>extra snack</b>.
+      </div>
+
+      <ul class="datelist">
+        <li><span class="dl-date">Oct 13</span><span class="dl-what">First swimming class</span></li>
+        <li><span class="dl-date">Oct 15</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Oct 26</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Oct 28</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Oct 30</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 3</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 6</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 10</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 16</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 18</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 20</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 24</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Nov 30</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Dec 2</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Dec 4</span><span class="dl-what">Swim day</span></li>
+        <li><span class="dl-date">Dec 8</span><span class="dl-what">Swim day</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="section-kicker">Worth knowing</p>
+      <h2>No School / Early Dismissal — Coming Up</h2>
+      <p class="section-note">No bus at the usual time, no lunch to pack, on any of these days. Double-check with Charming before assuming.</p>
+      <ul class="datelist">
+        <li><span class="dl-date">Oct 1</span><span class="dl-who"><span class="tag auggie">Auggie</span><span class="tag zachary">Zachary</span></span><span class="dl-what">Public holiday — both boys off</span></li>
+        <li><span class="dl-date">Oct 2</span><span class="dl-who"><span class="tag auggie">Auggie</span><span class="tag zachary">Zachary</span></span><span class="dl-what">No school — both boys home</span></li>
+        <li><span class="dl-date">Oct 19–23</span><span class="dl-who"><span class="tag auggie">Auggie</span><span class="tag zachary">Zachary</span></span><span class="dl-what">Fall / mid-term break — both resume Mon, Oct 26</span></li>
+        <li><span class="dl-date">Nov 4</span><span class="dl-who"><span class="tag auggie">Auggie</span></span><span class="dl-what">Early dismissal</span></li>
+        <li><span class="dl-date">Nov 5</span><span class="dl-who"><span class="tag auggie">Auggie</span></span><span class="dl-what">Save the date — Fall Family Picnic, South Bay Beach, 9:30–11am</span></li>
+        <li><span class="dl-date">Nov 10</span><span class="dl-who"><span class="tag zachary">Zachary</span></span><span class="dl-what">Founders' Day</span></li>
+        <li><span class="dl-date">Nov 11–13</span><span class="dl-who"><span class="tag auggie">Auggie</span></span><span class="dl-what">Parent conferences — check if early dismissal applies</span></li>
+      </ul>
+      <p class="hedge">This is just what's coming up soon — Charming will add more as dates are confirmed.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="end">Reca's page, kept up to date by Charming.</footer>
+
+</body></html>
